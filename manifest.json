@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Radio Znad Wilii Player",
+  "short_name": "Radio zw.lt",
+  "description": "Radio Znad Wilii Player",
+  "version": "2.0",
+  "author": "kotryn",
+  "browser_action": {
+    "default_title": "zw.lt",
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "logo16.png",
+    "32": "logo32.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  }
+}
